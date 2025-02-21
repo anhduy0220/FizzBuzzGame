@@ -1,0 +1,6 @@
+services:
+  fizzbuzzdatabase:
+    image: ${DOCKER_REGISTRY-}fizzbuzzdatabase
+    build:
+      context: .
+      dockerfile: FizzBuzzDatabase\Dockerfile

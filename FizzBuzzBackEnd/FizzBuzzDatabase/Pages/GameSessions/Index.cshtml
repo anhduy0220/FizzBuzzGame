@@ -1,0 +1,46 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameSessions.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Game Sessions</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New Game Session</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Game Name</th>
+            <th>Player Name</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Correct Answers</th>
+            <th>Incorrect Answers</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var gameSession in Model.GameSessions)
+        {
+            <tr>
+                <td>@gameSession.Id</td>
+                <td>@gameSession.Game.GameName</td>
+                <td>@gameSession.Player.Name</td>
+                <td>@gameSession.StartTime</td>
+                <td>@gameSession.EndTime</td>
+                <td>@gameSession.CorrectAnswers</td>
+                <td>@gameSession.IncorrectAnswers</td>
+                <td>
+                    <a asp-page="Details" asp-route-id="@gameSession.Id" class="btn btn-info">Details</a>
+                    <a asp-page="Edit" asp-route-id="@gameSession.Id" class="btn btn-warning">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@gameSession.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

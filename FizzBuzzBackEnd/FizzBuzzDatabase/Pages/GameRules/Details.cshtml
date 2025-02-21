@@ -1,0 +1,13 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameRules.DetailsModel
+
+<h2>Game Rule Details</h2>
+
+<div>
+    <p><strong>ID:</strong> @Model.GameRule.Id</p>
+    <p><strong>Rule Name:</strong> @Model.GameRule.Divisor</p>
+    <p><strong>Description:</strong> @Model.GameRule.Word</p>
+</div>
+
+<a asp-page="Index" class="btn btn-secondary">Back to List</a>
+<a asp-page="Edit" asp-route-id="@Model.GameRule.Id" class="btn btn-warning">Edit</a>

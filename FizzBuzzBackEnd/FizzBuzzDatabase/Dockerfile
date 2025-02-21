@@ -1,24 +1,32 @@
-# Use the official .NET SDK image for building the application
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
+# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+# Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+# For more information, please see https://aka.ms/containercompat
+
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
 WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
 
-# Copy the project file and restore dependencies
-COPY *.csproj ./
-RUN dotnet restore
 
-# Copy all application files and build the project
-COPY . ./
-RUN dotnet publish -c Release -o /out
+# This stage is used to build the service project
+FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["FizzBuzzDatabase/FizzBuzzDatabase.csproj", "FizzBuzzDatabase/"]
+RUN dotnet restore "./FizzBuzzDatabase/FizzBuzzDatabase.csproj"
+COPY . .
+WORKDIR "/src/FizzBuzzDatabase"
+RUN dotnet build "./FizzBuzzDatabase.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
-# Use the official .NET runtime image for running the application
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+# This stage is used to publish the service project to be copied to the final stage
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./FizzBuzzDatabase.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
+FROM base AS final
 WORKDIR /app
-
-# Copy the published output from the build stage
-COPY --from=build-env /out .
-
-# Expose the default port for ASP.NET Core
-EXPOSE 80
-
-# Set the entry point to the built DLL
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "FizzBuzzDatabase.dll"]

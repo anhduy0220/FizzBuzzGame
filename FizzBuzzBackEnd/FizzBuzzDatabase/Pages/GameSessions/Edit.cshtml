@@ -1,0 +1,36 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameSessions.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Edit GameSession</h4>
+<hr />
+
+<form method="post">
+    <input type="hidden" asp-for="GameSession.Id" />
+    <div class="form-group">
+        <label asp-for="GameSession.GameId" class="control-label"></label>
+        <input asp-for="GameSession.GameId" class="form-control" />
+        <span asp-validation-for="GameSession.GameId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GameSession.PlayerId" class="control-label"></label>
+        <input asp-for="GameSession.PlayerId" class="form-control" />
+        <span asp-validation-for="GameSession.PlayerId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GameSession.StartTime" class="control-label"></label>
+        <input asp-for="GameSession.StartTime" class="form-control" />
+        <span asp-validation-for="GameSession.StartTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GameSession.EndTime" class="control-label"></label>
+        <input asp-for="GameSession.EndTime" class="form-control" />
+        <span asp-validation-for="GameSession.EndTime" class="text-danger"></span>
+    </div>
+</form>

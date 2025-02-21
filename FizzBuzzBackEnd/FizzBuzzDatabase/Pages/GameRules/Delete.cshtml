@@ -1,0 +1,16 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameRules.DeleteModel
+
+<h2>Delete Game Rule</h2>
+
+<h4>Are you sure you want to delete this?</h4>
+<div>
+    <p><strong>Rule Name:</strong> @Model.GameRule.Divisor</p>
+    <p><strong>Description:</strong> @Model.GameRule.Word</p>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="GameRule.Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>

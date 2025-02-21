@@ -1,0 +1,26 @@
+services:
+  fizzbuzzdatabase:
+    container_name: "FizzBuzzDatabase"
+    build:
+      args:
+        LAUNCHING_FROM_VS: true
+        BUILD_CONFIGURATION: Debug
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "FizzBuzzDatabase"
+    volumes:
+      - C:\Users\AZuyy\onecoremsvsmon\17.12.11017.4296:c:\remote_debugger:ro
+      - C:\Users\AZuyy\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - C:\Users\AZuyy\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerAdministrator\AppData\Roaming\ASP.NET\Https:ro
+      - C:\Users\AZuyy\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+      - C:\Users\AZuyy\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerAdministrator\AppData\Roaming\Microsoft\UserSecrets:ro
+      - C:\Software\AppData\Programs\Microsoft Visual Studio\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\win-x64\net8.0:C:\VSTools:ro
+      - C:\Software\AppData\Programs\Microsoft Visual Studio\Common7\IDE\CommonExtensions\Microsoft\HotReload:C:\HotReloadAgent:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"C:\\app\\FizzBuzzDatabase.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major C:\\VSTools\\DistrolessHelper\\DistrolessHelper.dll --stop dotnet"
+      com.microsoft.visual-studio.project-name: "FizzBuzzDatabase"

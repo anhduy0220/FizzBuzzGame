@@ -1,0 +1,22 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.Games.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Game</h1>
+
+<div>
+    <h3>Are you sure you want to delete the Game?</h3>
+    <p><strong>Game Name:</strong> @Model.Game.GameName</p>
+    <p><strong>Author:</strong> @Model.Game.Author</p>
+    <p><strong>Min Range:</strong> @Model.Game.MinRange</p>
+    <p><strong>Max Range:</strong> @Model.Game.MaxRange</p>
+    <p><strong>Timer:</strong> @Model.Game.Timer</p>
+
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

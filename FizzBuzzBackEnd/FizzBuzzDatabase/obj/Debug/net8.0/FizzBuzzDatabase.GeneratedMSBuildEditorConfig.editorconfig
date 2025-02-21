@@ -32,8 +32,88 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameRules/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVJ1bGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameRules/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVJ1bGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameRules/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVJ1bGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameRules/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVJ1bGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameRules/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVJ1bGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameSessions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVNlc3Npb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameSessions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVNlc3Npb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameSessions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVNlc3Npb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameSessions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVNlc3Npb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/GameSessions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZVNlc3Npb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Games/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Games/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Games/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Games/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Games/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Players/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Players/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/My Study/Final Assessment/FizzBuzzGame/FizzBuzzBackEnd/FizzBuzzDatabase/Pages/Privacy.cshtml]

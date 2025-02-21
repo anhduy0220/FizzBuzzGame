@@ -1,0 +1,34 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameRules.IndexModel
+
+<h2>Game Rules</h2>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New Rule</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Divisor</th>
+            <th>Word</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rule in Model.GameRuleList)
+        {
+            <tr>
+                <td>@rule.Id</td>
+                <td>@rule.Divisor</td>
+                <td>@rule.Word</td>
+                <td>
+                    <a asp-page="Details" asp-route-id="@rule.Id" class="btn btn-info">View</a>
+                    <a asp-page="Edit" asp-route-id="@rule.Id" class="btn btn-warning">Edit</a>
+                    <a asp-page="Delete" asp-route-id="@rule.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -50,6 +50,17 @@ namespace FizzBuzzDatabase.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Game");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Author = "Admin",
+                            GameName = "Default Game",
+                            MaxRange = 100,
+                            MinRange = 1,
+                            Timer = 60
+                        });
                 });
 
             modelBuilder.Entity("FizzBuzzDatabase.Models.GameRule", b =>
@@ -81,21 +92,21 @@ namespace FizzBuzzDatabase.Migrations
                         {
                             Id = 1,
                             Divisor = 7,
-                            GameId = 0,
+                            GameId = 1,
                             Word = "Foo"
                         },
                         new
                         {
                             Id = 2,
                             Divisor = 13,
-                            GameId = 0,
+                            GameId = 1,
                             Word = "Boo"
                         },
                         new
                         {
                             Id = 3,
                             Divisor = 103,
-                            GameId = 0,
+                            GameId = 1,
                             Word = "Loo"
                         });
                 });

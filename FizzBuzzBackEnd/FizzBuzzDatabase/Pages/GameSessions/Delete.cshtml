@@ -1,0 +1,82 @@
+﻿@page
+@model FizzBuzzDatabase.Pages.GameSessions.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>GameSession</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.Player)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.Player.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.Game)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.Game.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.Score)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.Score)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.StartTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.StartTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.EndTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.EndTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.Duration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.Duration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.Questions)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.Questions)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.CorrectAnswers)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.CorrectAnswers)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.IncorrectAnswers)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.IncorrectAnswers)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GameSession.CreatedAt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GameSession.CreatedAt)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="GameSession.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>
