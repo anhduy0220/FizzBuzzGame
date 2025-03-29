@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "GameRulesController",
-    "Method": "GetGameRules",
-    "RelativePath": "api/GameRules",
+    "ContainingType": "Backend.Controllers.GameController",
+    "Method": "GetAllGames",
+    "RelativePath": "api/game",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FizzBuzzDatabase.DTOs.GameDto, FizzBuzzDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,25 +20,35 @@
     ]
   },
   {
-    "ContainingType": "GameRulesController",
-    "Method": "CreateRule",
-    "RelativePath": "api/GameRules",
+    "ContainingType": "Backend.Controllers.GameController",
+    "Method": "CreateGame",
+    "RelativePath": "api/game",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newRule",
-        "Type": "FizzBuzzDatabase.Models.GameRule",
+        "Name": "createGameDTO",
+        "Type": "FizzBuzzDatabase.DTOs.CreateGameDTO",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.GameDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "GameRulesController",
-    "Method": "GetGameRuleById",
-    "RelativePath": "api/GameRules/{id}",
+    "ContainingType": "Backend.Controllers.GameController",
+    "Method": "GetGame",
+    "RelativePath": "api/game/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -49,12 +59,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.GameDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
-    "ContainingType": "GameRulesController",
-    "Method": "UpdateRule",
-    "RelativePath": "api/GameRules/{id}",
+    "ContainingType": "Backend.Controllers.GameController",
+    "Method": "UpdateGame",
+    "RelativePath": "api/game/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -65,17 +85,17 @@
         "IsRequired": true
       },
       {
-        "Name": "updatedRule",
-        "Type": "FizzBuzzDatabase.Models.GameRule",
+        "Name": "updateGameDTO",
+        "Type": "FizzBuzzDatabase.DTOs.UpdateGameDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GameRulesController",
-    "Method": "DeleteRule",
-    "RelativePath": "api/GameRules/{id}",
+    "ContainingType": "Backend.Controllers.GameController",
+    "Method": "DeleteGame",
+    "RelativePath": "api/game/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -89,9 +109,98 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "GameRulesController",
-    "Method": "GetRulesByGameId",
-    "RelativePath": "api/GameRules/game/{gameId}",
+    "ContainingType": "Backend.Controllers.GameRuleController",
+    "Method": "CreateGameRule",
+    "RelativePath": "api/gamerule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createGameRuleDTO",
+        "Type": "FizzBuzzDatabase.DTOs.CreateGameRuleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.GameRuleDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.Controllers.GameRuleController",
+    "Method": "GetGameRule",
+    "RelativePath": "api/gamerule/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.GameRuleDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.Controllers.GameRuleController",
+    "Method": "UpdateGameRule",
+    "RelativePath": "api/gamerule/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateGameRuleDTO",
+        "Type": "FizzBuzzDatabase.DTOs.UpdateGameRuleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.GameRuleController",
+    "Method": "DeleteGameRule",
+    "RelativePath": "api/gamerule/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.Controllers.GameRuleController",
+    "Method": "GetGameRulesByGameId",
+    "RelativePath": "api/gamerule/game/{gameId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -104,7 +213,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FizzBuzzDatabase.DTOs.GameRuleDto, FizzBuzzDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -115,111 +224,22 @@
     ]
   },
   {
-    "ContainingType": "GameSessionsController",
-    "Method": "GetGameSessions",
-    "RelativePath": "api/GameSessions",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "GameSessionsController",
-    "Method": "CreateGameSession",
-    "RelativePath": "api/GameSessions",
+    "ContainingType": "Backend.Controllers.GameSessionController",
+    "Method": "SubmitAnswer",
+    "RelativePath": "api/gamesession/answer",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newSession",
-        "Type": "FizzBuzzDatabase.Models.GameSession",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GameSessionsController",
-    "Method": "GetGameSessionById",
-    "RelativePath": "api/GameSessions/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GameSessionsController",
-    "Method": "UpdateGameSession",
-    "RelativePath": "api/GameSessions/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedSession",
-        "Type": "FizzBuzzDatabase.Models.GameSession",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GameSessionsController",
-    "Method": "DeleteGameSession",
-    "RelativePath": "api/GameSessions/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "GameSessionsController",
-    "Method": "GetSessionsByGameId",
-    "RelativePath": "api/GameSessions/game/{gameId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "gameId",
-        "Type": "System.Int32",
+        "Name": "gameSessionAnswerDTO",
+        "Type": "FizzBuzzDatabase.DTOs.GameSessionAnswerDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "FizzBuzzDatabase.DTOs.GameSessionResultAndNewQuestionDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -230,137 +250,22 @@
     ]
   },
   {
-    "ContainingType": "GameSessionsController",
-    "Method": "GetSessionsByPlayerId",
-    "RelativePath": "api/GameSessions/player/{playerId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "playerId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "GetPlayers",
-    "RelativePath": "api/Player",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "CreatePlayer",
-    "RelativePath": "api/Player",
+    "ContainingType": "Backend.Controllers.GameSessionController",
+    "Method": "EndGameSession",
+    "RelativePath": "api/gamesession/end/{sessionId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newPlayer",
-        "Type": "FizzBuzzDatabase.Models.Player",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "GetPlayerById",
-    "RelativePath": "api/Player/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "UpdatePlayer",
-    "RelativePath": "api/Player/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "updatedPlayer",
-        "Type": "FizzBuzzDatabase.Models.Player",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "DeletePlayer",
-    "RelativePath": "api/Player/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PlayerController",
-    "Method": "GetPlayerGameSessions",
-    "RelativePath": "api/Player/{id}/sessions",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
+        "Name": "sessionId",
         "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "FizzBuzzDatabase.DTOs.GameSessionResultDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -371,19 +276,55 @@
     ]
   },
   {
-    "ContainingType": "PlayerController",
-    "Method": "GetPlayerByEmail",
-    "RelativePath": "api/Player/email/{email}",
+    "ContainingType": "Backend.Controllers.GameSessionController",
+    "Method": "GetGameSessionResult",
+    "RelativePath": "api/gamesession/result/{sessionId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
+        "Name": "sessionId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.GameSessionResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Backend.Controllers.GameSessionController",
+    "Method": "StartGameSession",
+    "RelativePath": "api/gamesession/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "initialGameSessionDTO",
+        "Type": "FizzBuzzDatabase.DTOs.InitialGameSessionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FizzBuzzDatabase.DTOs.InitialGameSessionQuestionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

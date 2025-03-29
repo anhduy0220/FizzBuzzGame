@@ -17,7 +17,7 @@ namespace FizzBuzzDatabase.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "9.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -34,32 +34,29 @@ namespace FizzBuzzDatabase.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("GameName")
+                    b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MaxRange")
-                        .HasColumnType("int");
-
-                    b.Property<int>("MinRange")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Timer")
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Game");
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Game", (string)null);
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Author = "Admin",
-                            GameName = "Default Game",
-                            MaxRange = 100,
-                            MinRange = 1,
-                            Timer = 60
+                            Author = "",
+                            Name = "FooBooLoo"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Author = "",
+                            Name = "FizzBuzz"
                         });
                 });
 
@@ -77,7 +74,7 @@ namespace FizzBuzzDatabase.Migrations
                     b.Property<int>("GameId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Word")
+                    b.Property<string>("Replacement")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -85,29 +82,29 @@ namespace FizzBuzzDatabase.Migrations
 
                     b.HasIndex("GameId");
 
-                    b.ToTable("GameRule");
+                    b.ToTable("GameRule", (string)null);
 
                     b.HasData(
                         new
                         {
                             Id = 1,
                             Divisor = 7,
-                            GameId = 1,
-                            Word = "Foo"
+                            GameId = 0,
+                            Replacement = "Foo"
                         },
                         new
                         {
                             Id = 2,
                             Divisor = 13,
-                            GameId = 1,
-                            Word = "Boo"
+                            GameId = 0,
+                            Replacement = "Boo"
                         },
                         new
                         {
                             Id = 3,
                             Divisor = 103,
-                            GameId = 1,
-                            Word = "Loo"
+                            GameId = 0,
+                            Replacement = "Loo"
                         });
                 });
 
@@ -122,14 +119,12 @@ namespace FizzBuzzDatabase.Migrations
                     b.Property<int>("CorrectAnswers")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("EndTime")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime?>("EndTime")
+                        .HasPrecision(3)
+                        .HasColumnType("datetime2(3)");
 
                     b.Property<int>("GameId")
                         .HasColumnType("int");
@@ -140,17 +135,9 @@ namespace FizzBuzzDatabase.Migrations
                     b.Property<int>("PlayerId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PlayerId1")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Questions")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Score")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
+                        .HasPrecision(3)
+                        .HasColumnType("datetime2(3)");
 
                     b.HasKey("Id");
 
@@ -158,9 +145,29 @@ namespace FizzBuzzDatabase.Migrations
 
                     b.HasIndex("PlayerId");
 
-                    b.HasIndex("PlayerId1");
+                    b.ToTable("GameSession", (string)null);
 
-                    b.ToTable("GameSession");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CorrectAnswers = 3,
+                            Duration = 60,
+                            GameId = 1,
+                            IncorrectAnswers = 1,
+                            PlayerId = 1,
+                            StartTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CorrectAnswers = 2,
+                            Duration = 45,
+                            GameId = 2,
+                            IncorrectAnswers = 2,
+                            PlayerId = 2,
+                            StartTime = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("FizzBuzzDatabase.Models.Player", b =>
@@ -171,26 +178,28 @@ namespace FizzBuzzDatabase.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("HighScore")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Player");
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Player", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Alice"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Bob"
+                        });
                 });
 
             modelBuilder.Entity("FizzBuzzDatabase.Models.GameRule", b =>
@@ -207,20 +216,16 @@ namespace FizzBuzzDatabase.Migrations
             modelBuilder.Entity("FizzBuzzDatabase.Models.GameSession", b =>
                 {
                     b.HasOne("FizzBuzzDatabase.Models.Game", "Game")
-                        .WithMany()
+                        .WithMany("GameSessions")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("FizzBuzzDatabase.Models.Player", "Player")
-                        .WithMany()
+                        .WithMany("GameSessions")
                         .HasForeignKey("PlayerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("FizzBuzzDatabase.Models.Player", null)
-                        .WithMany("GameSessions")
-                        .HasForeignKey("PlayerId1");
 
                     b.Navigation("Game");
 
@@ -229,6 +234,8 @@ namespace FizzBuzzDatabase.Migrations
 
             modelBuilder.Entity("FizzBuzzDatabase.Models.Game", b =>
                 {
+                    b.Navigation("GameSessions");
+
                     b.Navigation("Rules");
                 });
 

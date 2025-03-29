@@ -1,13 +1,23 @@
-﻿namespace FizzBuzzDatabase.Models
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using FizzBuzzDatabase.Models;
+
+namespace FizzBuzzDatabase.Models
 {
     public class Game
     {
-        public int Id { get; set; } // Primary key
-        public string GameName { get; set; } // Name of the game
-        public string Author { get; set; } // Author of the game
-        public int MinRange { get; set; } // Minimum range for random number generation
-        public int MaxRange { get; set; } // Maximum range for random number generation
-        public int Timer { get; set; } // Timer for the game
-        public List<GameRule> Rules { get; set; } = new List<GameRule>(); // Navigation property for GameRules
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        public string Author { get; set; } = string.Empty;
+
+        public List<GameRule> Rules { get; set; } = new();
+        public List<GameSession> GameSessions { get; set; } = new();
     }
 }

@@ -1,54 +1,33 @@
-import React, { useState } from "react";
-import "./App.css";
-import { HomePage } from "./components/HomePage";
-import GamePage from "./components/GamePage";
-import GameRules from "./components/GameRules";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage/HomePage';
+import GamePage from './components/GamePage/GamePage';
+import GameRulePage from './components/GameRulePage/GameRulePage';
+import './App.css';
 
-function App() {
-    const [gameStarted, setGameStarted] = useState(false);
-    const [playerName, setPlayerName] = useState<string | null>(null);
-    const [gameDuration, setGameDuration] = useState<number | null>(null);
-    const [questionCount, setQuestionCount] = useState<number | null>(null);
-    const [score, setScore] = useState<{ correct: number; incorrect: number } | null>(null);
+const App: React.FC = () => {
+  const [playerName, setPlayerName] = useState<string>('');
 
-    const handleStartGame = (name: string, duration: number, questions: number) => {
-        setPlayerName(name);
-        setGameDuration(duration);
-        setQuestionCount(questions);
-        setGameStarted(true);
-    };
-
-    const handleGameEnd = (finalScore: { correct: number; incorrect: number }) => {
-        setScore(finalScore);
-        setGameStarted(false);
-    };
-
-    return (
-        <div className="App">
-            {!gameStarted ? (
-                score ? (
-                    <div>
-                        <h1>Game Over!</h1>
-                        <p>Correct Answers: {score.correct}</p>
-                        <p>Incorrect Answers: {score.incorrect}</p>
-                        <button onClick={() => setScore(null)}>Play Again</button>
-                    </div>
-                ) : (
-                    <div>
-                        <HomePage onStartGame={handleStartGame} />
-                        <GameRules />
-                    </div>
-                )
-            ) : (
-                <GamePage
-                    playerName={playerName!}
-                    gameDuration={gameDuration!}
-                    questionCount={questionCount!}
-                    onGameEnd={handleGameEnd}
-                />
-            )}
-        </div>
-    );
-}
+  return (
+    <Router>
+      <div className="app-container">
+        <Routes>
+          <Route 
+            path="/" 
+            element={<HomePage />} 
+          />
+          <Route 
+            path="/game" 
+            element={<GamePage />} 
+          />
+          <Route 
+            path="/rules" 
+            element={<GameRulePage />} 
+          />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
 export default App;

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5acc0b255b427fce33356fd703ee4ab84a15435c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71f7fb2e0fac6aebb5614106835492e0befb0795")]
 [assembly: System.Reflection.AssemblyProductAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

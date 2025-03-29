@@ -1,11 +1,23 @@
-﻿namespace FizzBuzzDatabase.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using FizzBuzzDatabase.Models;
+
+namespace FizzBuzzDatabase.Models
 {
     public class GameRule
     {
-        public int Id { get; set; } // Primary key
-        public int GameId { get; set; } // Foreign key for Game
-        public Game Game { get; set; } // Navigation property for Game
-        public int Divisor { get; set; } // Divisor for the rule
-        public string Word { get; set; } // Replacement word for the rule
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public int Divisor { get; set; }
+
+        [Required]
+        public string Replacement { get; set; } = string.Empty;
+
+        [ForeignKey("Game")]
+        public int GameId { get; set; }
+        public Game Game { get; set; } = null!;
     }
+
 }

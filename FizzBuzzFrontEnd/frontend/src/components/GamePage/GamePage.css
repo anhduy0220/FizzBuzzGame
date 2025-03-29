@@ -1,0 +1,28 @@
+.game-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.current-number {
+  font-size: 3rem;
+  color: #3498db;
+  margin: 1rem 0;
+}
+
+.answer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.score-display {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-top: 1rem;
+}

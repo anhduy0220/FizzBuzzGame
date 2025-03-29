@@ -3,88 +3,56 @@
   "WorkspaceRootPath": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzBackEnd.Tests\\GameTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameSessionTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzBackEnd.Tests\\GameSessionTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameRuleTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzBackEnd.Tests\\GameRuleTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\controller\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\controller\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\controller\\gamesessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\controller\\gamesessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Repositories\\GameRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Repositories\\GameRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Models\\GameRule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameSession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Models\\GameSession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamerules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamerules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Data\\GameDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Data\\GameDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamerules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamerules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Models\\Game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamerules\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamerules\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\models\\gamerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\models\\gamerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\pages\\gamesessions\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\pages\\gamesessions\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|c:\\my study\\final assessment\\fizzbuzzgame\\fizzbuzzbackend\\fizzbuzzdatabase\\migrations\\20250218095523_razorpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51936399-2E91-4522-8B30-0419B7BF5493}|FizzBuzzDatabase\\FizzBuzzDatabase.csproj|solutionrelative:fizzbuzzdatabase\\migrations\\20250218095523_razorpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FizzBuzzDatabase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,119 +62,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 123,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 288,
-          "SelectedChildIndex": 4,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Dockerfile",
               "RelativeDocumentMoniker": "FizzBuzzDatabase\\Dockerfile",
               "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Dockerfile",
               "RelativeToolTip": "FizzBuzzDatabase\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-18T10:03:23.474Z",
+              "WhenOpened": "2025-03-28T23:45:00.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameSessionTests.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameSessionTests.cs",
+              "RelativeDocumentMoniker": "FizzBuzzBackEnd.Tests\\GameSessionTests.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameSessionTests.cs",
+              "RelativeToolTip": "FizzBuzzBackEnd.Tests\\GameSessionTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:10:55.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameTests.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameTests.cs",
+              "RelativeDocumentMoniker": "FizzBuzzBackEnd.Tests\\GameTests.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameTests.cs",
+              "RelativeToolTip": "FizzBuzzBackEnd.Tests\\GameTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:10:39.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\appsettings.json",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\appsettings.json",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\appsettings.json",
-              "RelativeToolTip": "FizzBuzzDatabase\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T09:58:03.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameSessionsController.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Controller\\GameSessionsController.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Controller\\GameSessionsController.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Controller\\GameSessionsController.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Controller\\GameSessionsController.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAgwK8AAAAAAAAAAAAAAA==",
+              "Title": "GameRuleTests.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameRuleTests.cs",
+              "RelativeDocumentMoniker": "FizzBuzzBackEnd.Tests\\GameRuleTests.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\GameRuleTests.cs",
+              "RelativeToolTip": "FizzBuzzBackEnd.Tests\\GameRuleTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:56:18.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayersController.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Controller\\PlayersController.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Controller\\PlayersController.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Controller\\PlayersController.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Controller\\PlayersController.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAowJsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:56:18.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Program.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Program.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Program.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:55:50.565Z",
+              "WhenOpened": "2025-03-26T20:53:46.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250218095523_RazorPages.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Migrations\\20250218095523_RazorPages.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Migrations\\20250218095523_RazorPages.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Migrations\\20250218095523_RazorPages.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Migrations\\20250218095523_RazorPages.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FizzBuzzBackEnd.Tests.csproj",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj",
+              "RelativeDocumentMoniker": "FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj",
+              "RelativeToolTip": "FizzBuzzBackEnd.Tests\\FizzBuzzBackEnd.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T20:49:50.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameRepository.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Repositories\\GameRepository.cs",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Repositories\\GameRepository.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Repositories\\GameRepository.cs",
+              "RelativeToolTip": "FizzBuzzDatabase\\Repositories\\GameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:55:23.224Z"
+              "WhenOpened": "2025-03-26T20:31:17.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameRules\\Edit.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Edit.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameRules\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:51:33.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GameRule.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameRule.cs",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Models\\GameRule.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameRule.cs",
+              "RelativeToolTip": "FizzBuzzDatabase\\Models\\GameRule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:47:59.788Z"
+              "WhenOpened": "2025-03-26T20:24:33.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameSession.cs",
               "RelativeDocumentMoniker": "FizzBuzzDatabase\\Models\\GameSession.cs",
@@ -214,151 +166,67 @@
               "RelativeToolTip": "FizzBuzzDatabase\\Models\\GameSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:37:07.842Z"
+              "WhenOpened": "2025-03-26T20:26:33.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameDB.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Data\\GameDB.cs",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Data\\GameDB.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Data\\GameDB.cs",
+              "RelativeToolTip": "FizzBuzzDatabase\\Data\\GameDB.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:20:28.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameRules\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:36:58.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Models\\Game.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\Game.cs",
+              "RelativeToolTip": "FizzBuzzDatabase\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:34:26.948Z"
+              "WhenOpened": "2025-03-26T20:20:05.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:34:26.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:34:26.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Program.cs",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Program.cs",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Program.cs",
+              "RelativeToolTip": "FizzBuzzDatabase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:34:26.367Z"
+              "WhenOpened": "2025-03-25T00:39:22.515Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Create.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:34:26.216Z"
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FizzBuzzDatabase\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T00:33:14.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\appsettings.json",
+              "RelativeDocumentMoniker": "FizzBuzzDatabase\\appsettings.json",
+              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\appsettings.json",
+              "RelativeToolTip": "FizzBuzzDatabase\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:34:26.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T09:34:26.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Edit.cshtml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowB0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:34:26.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GameRule.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameRule.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Models\\GameRule.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Models\\GameRule.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Models\\GameRule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:47:15.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Details.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:34:26.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml.cs",
-              "ToolTip": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml.cs",
-              "RelativeToolTip": "FizzBuzzDatabase\\Pages\\GameSessions\\Delete.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:34:26.812Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T00:32:54.916Z"
             }
           ]
         }

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controller"
+    "\\Controller",
+    "\\FizzBuzzBackEnd.Tests"
   ],
-  "SelectedNode": "\\Controller\\PlayersController.cs",
+  "SelectedNode": "\\FizzBuzzBackEnd.Tests",
   "PreviewInSolutionExplorer": false
 }

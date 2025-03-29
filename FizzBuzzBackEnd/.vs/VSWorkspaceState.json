@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FizzBuzzDatabase",
-    "\\FizzBuzzDatabase\\Controller",
-    "\\FizzBuzzDatabase\\Migrations",
-    "\\FizzBuzzDatabase\\Pages"
+    "\\FizzBuzzBackEnd.Tests",
+    "\\FizzBuzzDatabase"
   ],
-  "SelectedNode": "\\FizzBuzzDatabase\\Migrations",
+  "SelectedNode": "\\FizzBuzzBackEnd.Tests\\GameTests.cs",
   "PreviewInSolutionExplorer": false
 }

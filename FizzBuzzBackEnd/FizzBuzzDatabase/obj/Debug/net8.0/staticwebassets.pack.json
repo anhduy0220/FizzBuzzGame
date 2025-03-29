@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FizzBuzzDatabase.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FizzBuzzDatabase.j9gdfx8gi8.bundle.scp.css"
-    },
-    {
       "Id": "C:\\My Study\\Final Assessment\\FizzBuzzGame\\FizzBuzzBackEnd\\FizzBuzzDatabase\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

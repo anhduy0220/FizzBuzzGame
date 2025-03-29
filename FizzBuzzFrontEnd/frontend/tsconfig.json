@@ -18,9 +18,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["vite/client",
+                "jest", "@testing-library/jest-dom"],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"]
+    },
+    
   },
   "include": [
     "src"
   ]
 }
+

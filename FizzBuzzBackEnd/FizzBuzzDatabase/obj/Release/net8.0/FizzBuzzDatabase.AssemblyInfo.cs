@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ecacfe7e-86f8-4311-9e49-9e3422d89e44")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71f7fb2e0fac6aebb5614106835492e0befb0795")]
 [assembly: System.Reflection.AssemblyProductAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FizzBuzzDatabase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
